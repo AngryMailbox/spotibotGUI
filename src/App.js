@@ -31,7 +31,9 @@ function App() {
           </div>
           <div className={styles.separator}></div>
           <div className={styles.commands}>
-            <div className={styles.blackbar}></div>
+            <div className={styles.blackbar}>
+              <input type="text"></input>
+            </div>
           </div>
         </div>
         <div className={styles.under}></div>
